@@ -1,0 +1,23 @@
+{
+  "name": "slide-game",
+  "version": "1.0.0",
+  "description": "\"# slide-game\"",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkvorcP/slide-game.git"
+  },
+  "author": "Peter Škvorc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SkvorcP/slide-game/issues"
+  },
+  "homepage": "https://github.com/SkvorcP/slide-game#readme",
+  "dependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
