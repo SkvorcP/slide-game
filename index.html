@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8" />
-    <link href="./dist/style.css" rel="stylesheet">
+    <link href="./src/css/style.css" rel="stylesheet">
 
     <title>Simple Slide Game</title>
 
@@ -11,9 +11,18 @@
 
 <body>
 
+    <div class="mb-4">
+        <label class="font-bold text-grey-darker block mb-2">Pick a number:</label>
+        <input id="n" type="number" value="4"
+            class="block appearance-none w-full bg-white border border-gray-400 hover:border-gray-100 px-2 py-2 rounded shadow"
+            placeholder="n x n">
+    </div>
+    
     <canvas id="myCanvas" width="480" height="320" class="container mx-auto bg-gray-100"></canvas>
 
-    <script src="./dist/bundle.js"></script>
+
+    <script type="text/javascript" src="./src/js/gamePanel.js"></script>
+    <script type="text/javascript" src="./src/js/main.js"></script>
 
 </body>
 
